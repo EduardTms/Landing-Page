@@ -25,7 +25,7 @@ button:first-of-type {
     width: 30%;
     margin-top: 10px;
     background-color: #3882f6;
-    border-radius: 10%;
+    border-radius: 10px;
     border: none;
     color: white;
     font-weight: 700;
@@ -167,18 +167,20 @@ button:first-of-type {
 .contentSec3 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
 .section_3.paragraph {
     margin: 0;
     padding: 0;
+    max-width: 70%;
 }
 
 .section_3.author {
     margin: 0;
     padding: 0;
+    max-width: 70%;
     font-weight: 800;
     font-size: 24px;
 }
@@ -193,7 +195,7 @@ button:first-of-type {
 
 .section_4.outerContainer {
     background-color: #3882f6;
-    width: 70%;
+    max-width: 60%;
     border-radius: 10px;
 }
 
@@ -226,4 +228,13 @@ button:first-of-type {
 
 button:last-of-type {
     border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
