@@ -21,6 +21,12 @@ a {
     color: #e5e7eb;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
 button:first-of-type {
     width: 30%;
     margin-top: 10px;
@@ -53,6 +59,7 @@ button:first-of-type {
 .navLogo {
     font-size: 24px;
     font-weight: 700;
+    width: 130px;
 }
 
 .header.contentContainer {
@@ -132,7 +139,7 @@ button:first-of-type {
     border-radius: 10px;
     margin-top: 10px;
     width: 150px;
-    height: 150px;
+    overflow: hidden;
 }
 
 .card {
@@ -145,6 +152,7 @@ button:first-of-type {
     justify-content: center;
     align-items: center;
 }
+
 
 .cardText {
     font-size: 18px;
@@ -183,6 +191,7 @@ button:first-of-type {
     max-width: 70%;
     font-weight: 800;
     font-size: 24px;
+    margin-left: 350px;
 }
 
 .section_4 {
